@@ -50,8 +50,8 @@ body{
     cursor: pointer;
 }
 
-.search i {
-    width: 60px;
+.search img{
+    
 }
 
 .weather-icon{
@@ -61,21 +61,27 @@ body{
 }
 
 .weather h1{
-    font-size: 80px;
-    font-weight: 500;
-}
-.weather h2{
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
+
+}
+.weather h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.temp-range{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
 }
 
 .details{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
-    padding: 0 20px;
+    justify-content: space-between;
     margin-top: 50px;
 }
 
