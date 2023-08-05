@@ -12,28 +12,45 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
+		<!-- <div>I'm on the develop branch test</div> -->
 		<div class="card">
 			<div class="search">
 				<input type="text" placeholder="Enter city name" spellcheck="false" />
-				<button><i class="fa-solid fa-magnifying-glass"></i></button>
+				<button><img src="img/search.svg" /></button>
 			</div>
 			<div class="weather">
 				<img src="img/sunny.svg" class="weather-icon" />
-				<h1 class="temp">20&deg;F</h1>
-				<h2 class="city">Cincinnati</h2>
+				<h1 class="city">Cincinnati</h1>
+				<div class="temp">
+					<h2>20&deg;F</h2>
+					<div class="temp-range">
+						<p>H: 87&deg</p>
+						<p>L: 63&deg</p>
+					</div>
+				</div>
+
 				<div class="details">
 					<div class="col">
 						<img src="img/humid.svg" />
 						<div class="humidity">
 							<p>50%</p>
 							<p class="sub">Humidity</p>
+						</div>
 					</div>
+
 					<div class="col">
 						<img src="img/wind.svg" />
 						<div class="wind">
-						<p>7 mph</p>
-						<p class="sub">Wind Speed</p>
+							<p>7 mph</p>
+							<p class="sub">Wind Speed</p>
+						</div>
 					</div>
+					<div class="col">
+						<img src="img/wind.svg" />
+						<div class="precip">
+							<p>0.5in</p>
+							<p class="sub">Precip.</p>
+						</div>
 					</div>
 				</div>
 			</div>
